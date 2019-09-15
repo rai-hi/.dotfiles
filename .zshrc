@@ -1,0 +1,1 @@
+/Users/rainer/Dropbox/Config/zsh/.zshrc
