@@ -9,3 +9,6 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 
 brew install bat
+brew install diff-so-fancy
+brew install git
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
