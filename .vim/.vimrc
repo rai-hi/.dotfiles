@@ -9,6 +9,8 @@ set belloff=all
 set relativenumber
 set number
 set nocompatible              " be iMproved, required
+set tabstop=2
+set shiftwidth=2
 
 nnoremap ; :
 noremap <Up> <NOP>
@@ -56,6 +58,9 @@ Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'ervandew/supertab'
 Plug 'vim-airline/vim-airline'
 Plug 'w0rp/ale'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'plasticboy/vim-markdown'
+Plug 'tpope/vim-sleuth'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -105,3 +110,7 @@ map <Leader>n :NERDTreeFind<CR> " Leader + n to open the NT”
 map - :NERDTreeToggle<CR>
 
 command Vimrc e ~/.vimrc
+
+" Prevent markdown folding
+let g:vim_markdown_folding_disabled=1
+map <Leader>notes :e ~/Dropbox/dev/notes.md
