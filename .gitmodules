@@ -1,3 +1,12 @@
 [submodule ".zsh/.zprezto"]
 	path = .zsh/.zprezto
 	url = git@github.com:sorin-ionescu/prezto.git
+[submodule ".zsh/font_collections/top-programming-fonts"]
+	path = .zsh/font_collections/top-programming-fonts
+	url = https://github.com/hbin/top-programming-fonts.git
+[submodule ".zsh/font_collections/Menlo-for-Powerline"]
+	path = .zsh/font_collections/Menlo-for-Powerline
+	url = https://github.com/abertsch/Menlo-for-Powerline.git
+[submodule ".zsh/font_collections/fonts"]
+	path = .zsh/font_collections/fonts
+	url = https://github.com/powerline/fonts.git
