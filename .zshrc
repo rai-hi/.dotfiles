@@ -1,4 +1,5 @@
 ZDOTDIR=$HOME/.zsh/
+HISTFILE=$HOME/Dropbox/Config/zsh/.zhistory
 export RUBYDB_LIB=~/.rubydbg
 export RUBYDB_OPTS="HOST=localhost PORT=9000"
 
