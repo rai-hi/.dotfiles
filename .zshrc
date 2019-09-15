@@ -27,3 +27,5 @@ eval "$(rbenv init -)"
 
 alias gmbk='cd ~/Dropbox/dev/gymbook/dev'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/Users/rainer"
+alias dash='cd ~/Dropbox/dev/makers/dash'
+alias vim=nvim
