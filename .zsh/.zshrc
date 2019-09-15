@@ -1,10 +1,10 @@
-ZDOTDIR=$HOME/.zsh/
+ZDOTDIR=$HOME/Dropbox/Config/zsh
 export RUBYDB_LIB=~/.rubydbg
 export RUBYDB_OPTS="HOST=localhost PORT=9000"
 
 # Source Prezto.
-if [[ -s "${ZDOTDIR}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR}/.zprezto/init.zsh"
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 # Prezto
@@ -25,4 +25,5 @@ eval "$(rbenv init -)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias gmbk='cd ~/Dropbox/dev/gymbook/dev'
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/Users/rainer"
+alias config='/usr/bin/git --git-dir=/Users/rainer/.dotfiles/ --work-tree=/Users/rainer'
+
