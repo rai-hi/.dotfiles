@@ -93,7 +93,7 @@ let g:airline#extensions#ale#enabled = 1
 " Color schemes
 " ===========
 "colorscheme termschool
-colorscheme OceanicNext
+colorscheme oceanicnext
 
 " ===========
 " Mappings
