@@ -61,6 +61,7 @@ Plug 'w0rp/ale'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'plasticboy/vim-markdown'
 Plug 'tpope/vim-sleuth'
+Plug 'vim-vdebug/vdebug'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
