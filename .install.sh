@@ -4,6 +4,7 @@ pip2 install neovim --upgrade
 pip3 install neovim --upgrade
 brew install neovim
 brew install fzf
+brew install tmux
 
 # To install useful key bindings and fuzzy completion:
 $(brew --prefix)/opt/fzf/install
