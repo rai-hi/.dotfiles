@@ -1,5 +1,4 @@
 ZDOTDIR=$HOME/.zsh/
-HISTFILE=$HOME/Dropbox/Config/zsh/.zhistory
 export RUBYDB_LIB=~/.rubydbg
 export RUBYDB_OPTS="HOST=localhost PORT=9000"
 
@@ -7,6 +6,8 @@ export RUBYDB_OPTS="HOST=localhost PORT=9000"
 if [[ -s "${ZDOTDIR}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR}/.zprezto/init.zsh"
 fi
+
+HISTFILE=$HOME/Dropbox/Config/zsh/.zhistory
 
 # Prezto
 prompt cloud '>' blue red
